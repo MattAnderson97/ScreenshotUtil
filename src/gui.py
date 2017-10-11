@@ -4,7 +4,7 @@ from win32gui import PumpMessages
 from PyQt5.QtCore import QThread
 from PyQt5.QtWidgets import *
 
-from src.watcher import Watcher
+from watcher import Watcher
 
 
 class KeyPressThread(QThread):

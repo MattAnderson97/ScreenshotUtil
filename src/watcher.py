@@ -5,7 +5,7 @@ from win32gui import PumpMessages, PostQuitMessage
 from pyHook import HookManager, GetKeyState
 from pyHook.HookManager import HookConstants
 
-from src import screenshot
+import screenshot
 
 
 class Watcher(object):
