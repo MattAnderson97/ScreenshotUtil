@@ -1,13 +1,11 @@
+import random
+from string import ascii_letters, digits
+from win32gui import PumpMessages, PostQuitMessage
+
 from pyHook import HookManager, GetKeyState
 from pyHook.HookManager import HookConstants
-from win32gui import PumpMessages, PostQuitMessage
-from string import ascii_letters, digits
 
-import datetime
-import pyscreenshot as ImageGrab
-import random
-
-import screenshot
+from src import screenshot
 
 
 class Watcher(object):

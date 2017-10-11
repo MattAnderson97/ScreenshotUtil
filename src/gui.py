@@ -1,10 +1,10 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import QThread
+import sys
 from win32gui import PumpMessages
 
-import sys
+from PyQt5.QtCore import QThread
+from PyQt5.QtWidgets import *
 
-from watcher import Watcher
+from src.watcher import Watcher
 
 
 class KeyPressThread(QThread):
